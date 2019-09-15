@@ -16,9 +16,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+
+
+
 import com.example.universal_app.ui.main.SectionsPagerAdapter;
 
+
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

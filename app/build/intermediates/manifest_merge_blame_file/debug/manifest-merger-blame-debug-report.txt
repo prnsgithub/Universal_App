@@ -11,57 +11,63 @@
 9-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.TRANSMIT_IR" />
-11-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:6:1-82
-11-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:6:18-63
-12
-13    <application
-13-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:8:5-25:19
-14        android:allowBackup="true"
-14-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:9:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\a08b33acd3724f0d435da4ded82b1263\core-1.1.0\AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:10:9-43
-18        android:label="@string/app_name"
-18-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:11:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:12:9-54
-20        android:supportsRtl="true"
-20-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:13:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:14:9-40
-23        <activity
-23-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:15:9-24:20
-24            android:name="com.example.universal_app.MainActivity"
-24-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:16:13-41
-25            android:label="@string/app_name"
-25-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:17:13-45
-26            android:theme="@style/AppTheme.NoActionBar" >
-26-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:18:13-56
-27            <intent-filter>
-27-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:19:13-23:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:20:17-69
-28-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:20:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:22:17-77
-30-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:22:27-74
-31            </intent-filter>
-32        </activity>
-33
-34        <provider
-34-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\aeb98e11fd4c5e71e49fd14457754591\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-35-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\aeb98e11fd4c5e71e49fd14457754591\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-36            android:authorities="com.example.universal_app.lifecycle-process"
-36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\aeb98e11fd4c5e71e49fd14457754591\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-37            android:exported="false"
-37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\aeb98e11fd4c5e71e49fd14457754591\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-38            android:multiprocess="true" />
-38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\aeb98e11fd4c5e71e49fd14457754591\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-39    </application>
-40
-41</manifest>
+11-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:6:5-69
+11-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:6:22-67
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:7:5-67
+12-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:8:5-79
+13-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:8:22-76
+14
+15    <application
+15-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:11:5-28:19
+16        android:allowBackup="true"
+16-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:12:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\0b930d52c1aba4fb146ca382edc40f8d\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:13:9-43
+20        android:label="@string/app_name"
+20-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:14:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:15:9-54
+22        android:supportsRtl="true"
+22-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:16:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:17:9-40
+25        <activity
+25-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:18:9-27:20
+26            android:name="com.example.universal_app.MainActivity"
+26-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:19:13-41
+27            android:label="@string/app_name"
+27-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:20:13-45
+28            android:theme="@style/AppTheme.NoActionBar" >
+28-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:21:13-56
+29            <intent-filter>
+29-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:23:17-69
+30-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:25:17-77
+32-->E:\Devlopment\android\Universal_App\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\856377aebf06d5e8268e4b1bbf39d9a9\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\856377aebf06d5e8268e4b1bbf39d9a9\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+38            android:authorities="com.example.universal_app.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\856377aebf06d5e8268e4b1bbf39d9a9\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\856377aebf06d5e8268e4b1bbf39d9a9\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\PRNS-MainPC\.gradle\caches\transforms-2\files-2.1\856377aebf06d5e8268e4b1bbf39d9a9\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+41    </application>
+42
+43</manifest>
